@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guilhed — Games & Cultura Pop</title>
+<meta name="description" content="Todos os vídeos do Guilhed do YouTube e TikTok em um só lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <div class="badge px">PLAYER 1 READY</div>
+    <h1 class="px" id="name">GUILHED</h1>
+    <p class="bio" id="bio"></p>
+    <div class="links">
+      <a class="btn yt" id="ytLink" target="_blank" rel="noopener">▶ YOUTUBE</a>
+      <a class="btn tt" id="ttLink" target="_blank" rel="noopener">♪ TIKTOK</a>
+    </div>
+  </header>
+  <div class="bar">
+    <h2 class="px">&gt; CONTEÚDOS</h2>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Buscar...">
+      <div class="chips" id="chips"></div>
+    </div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <footer id="foot"></footer>
+</main>
+<div class="modal" id="modal" hidden>
+  <div class="box" id="box"><button class="close px" id="close">X</button><div id="player"></div></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
